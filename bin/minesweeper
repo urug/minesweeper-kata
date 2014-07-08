@@ -2,8 +2,4 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__) + '/../lib')
 require 'game'
 
-board = GameBoard.new(20, 30)
-game = Game.new(board, Kernel)
-board.place_mine(3,2)
-board.place_mine(10,3)
-game.quit
+puts "Use your code from lib/game.rb"
